@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ViewChildren, QueryList } from '@angular/core';
 import { ChildFiveComponent } from '../test-content-child/child-five/child-five.component';
 
 @Component({
@@ -8,7 +8,9 @@ import { ChildFiveComponent } from '../test-content-child/child-five/child-five.
 })
 export class TestViewChildComponent implements OnInit {
 
-  @ViewChild(ChildFiveComponent) childFive: ChildFiveComponent;
+  // @ViewChild(ChildFiveComponent) childFive: ChildFiveComponent;
+  @ViewChildren(ChildFiveComponent) 
+  childFiveList:QueryList<ChildFiveComponent>;
 
   constructor() { }
 
@@ -16,11 +18,15 @@ export class TestViewChildComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    console.log(this.childFive)
-    this.childFive.age = 20;
-    this.childFive.myevent.subscribe((data)=>{
-      console.log(data);
-    });
+    // console.log(this.childFive)
+    // this.childFive.age = 20;
+    // this.childFive.myevent.subscribe((data)=>{
+    //   console.log(data);
+    // });
+
+    this.childFiveList.forEach((item)=>{
+      console.log(item);
+    })
 
   }
 
