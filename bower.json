@@ -1,0 +1,17 @@
+{
+  "name": "myproj4",
+  "description": "",
+  "main": "",
+  "authors": [
+    "dravenxiaokai <jspankai@vip.qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
