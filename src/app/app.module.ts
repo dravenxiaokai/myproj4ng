@@ -14,6 +14,7 @@ import { ChildThreeComponent } from './test-ng-content/child-three/child-three.c
 import { TestContentChildComponent } from './test-content-child/test-content-child.component';
 import { ChildFourComponent } from './test-content-child/child-four/child-four.component';
 import { ChildFiveComponent } from './test-content-child/child-five/child-five.component';
+import { TestViewChildComponent } from './test-view-child/test-view-child.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ChildFiveComponent } from './test-content-child/child-five/child-five.c
     ChildThreeComponent,
     TestContentChildComponent,
     ChildFourComponent,
-    ChildFiveComponent
+    ChildFiveComponent,
+    TestViewChildComponent
   ],
   imports: [
     BrowserModule
