@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TestDynamicComponentComponent } from './test-dynamic-component/test-dynamic-component.component';
 import { ChildOneComponent } from './test-dynamic-component/child-one/child-one.component';
+import { TestShadowDomComponent } from './test-shadow-dom/test-shadow-dom.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TestDynamicComponentComponent,
-    ChildOneComponent
+    ChildOneComponent,
+    TestShadowDomComponent
   ],
   imports: [
     BrowserModule
