@@ -8,6 +8,9 @@ import { ChildOneComponent } from './test-dynamic-component/child-one/child-one.
 import { TestShadowDomComponent } from './test-shadow-dom/test-shadow-dom.component';
 import { TestEmulatedModeComponent } from './test-emulated-mode/test-emulated-mode.component';
 import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component';
+import { TestNgContentComponent } from './test-ng-content/test-ng-content.component';
+import { ChildTwoComponent } from './test-ng-content/child-two/child-two.component';
+import { ChildThreeComponent } from './test-ng-content/child-three/child-three.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component
     ChildOneComponent,
     TestShadowDomComponent,
     TestEmulatedModeComponent,
-    TestNoneModeComponent
+    TestNoneModeComponent,
+    TestNgContentComponent,
+    ChildTwoComponent,
+    ChildThreeComponent
   ],
   imports: [
     BrowserModule
