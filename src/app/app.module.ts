@@ -11,6 +11,9 @@ import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component
 import { TestNgContentComponent } from './test-ng-content/test-ng-content.component';
 import { ChildTwoComponent } from './test-ng-content/child-two/child-two.component';
 import { ChildThreeComponent } from './test-ng-content/child-three/child-three.component';
+import { TestContentChildComponent } from './test-content-child/test-content-child.component';
+import { ChildFourComponent } from './test-content-child/child-four/child-four.component';
+import { ChildFiveComponent } from './test-content-child/child-five/child-five.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { ChildThreeComponent } from './test-ng-content/child-three/child-three.c
     TestNoneModeComponent,
     TestNgContentComponent,
     ChildTwoComponent,
-    ChildThreeComponent
+    ChildThreeComponent,
+    TestContentChildComponent,
+    ChildFourComponent,
+    ChildFiveComponent
   ],
   imports: [
     BrowserModule
