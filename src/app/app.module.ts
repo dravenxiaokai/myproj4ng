@@ -7,6 +7,7 @@ import { TestDynamicComponentComponent } from './test-dynamic-component/test-dyn
 import { ChildOneComponent } from './test-dynamic-component/child-one/child-one.component';
 import { TestShadowDomComponent } from './test-shadow-dom/test-shadow-dom.component';
 import { TestEmulatedModeComponent } from './test-emulated-mode/test-emulated-mode.component';
+import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TestEmulatedModeComponent } from './test-emulated-mode/test-emulated-mo
     TestDynamicComponentComponent,
     ChildOneComponent,
     TestShadowDomComponent,
-    TestEmulatedModeComponent
+    TestEmulatedModeComponent,
+    TestNoneModeComponent
   ],
   imports: [
     BrowserModule
